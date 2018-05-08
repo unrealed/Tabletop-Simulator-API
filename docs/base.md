@@ -226,7 +226,7 @@ function onLoad()
 		callback_owner = Global,
 		params         = {name = futureName}
 	}
-	spawnObject(spawnParams)
+	spawnObjectJSON(spawnParams)
 end
 
 function spawn_callback(object_spawned, params)
