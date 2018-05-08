@@ -4,7 +4,7 @@ All input elements allow for the XML UI to interact with the Lua scripts in the 
     Be sure to check out the [**UI section of the Lua Scripting API**](/ui) for how to receive the input from these element types. With Lua scripting, you can even modify the UI elements!
     
 ##Targeting Triggers
-When using an attribute that triggers scripting, like onValueChanged or onClick, it will always trigger the Global Lua script. For example:
+When using an attribute that triggers scripting, like `onValueChanged` or `onClick`, it will always trigger the Global Lua script. For example:
 ```xml
 <Button onClick="uiClickFunc">Click Me</Button>
 ```
