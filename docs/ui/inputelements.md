@@ -8,7 +8,7 @@ When using an attribute that triggers scripting, like onValueChanged or onClick,
 ```xml
 <Button onClick="uiClickFunc">Click Me</Button>
 ```
-This would trigger a function in the Global Lua script `function uiClickFunc()`. But if you want to target a function on an Object's script? Place the GUID for the object before the function name, like so:
+This would trigger a function in the Global Lua script `function uiClickFunc()`. But what if you want to target a function on an Object's script? Place the GUID for the object before the function name, like so:
 ```xml
 <Button onClick="aaa111/uiClickFunc">Click Me</Button>
 ```
